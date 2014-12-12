@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <h1>CIA Realizes It's Been Using Black Highlighters All These Years</h1>
+
+    <h2>Lorem ipsum dolor.</h2>
+    
+    <img src="cia.jpg">
+
+    <p>Click here to change below text:</p>
+
+    <p>Lorem ipsum dolor.</p>
+
+    <script>
+      //click event
+      $("img").click(function(){
+        alert("aaaah");
+      }
+      );
+
+      //animate
+      $("img").animate( {
+       opacity: 1,
+       width: "30%"
+      } , 2000 );
+
+      //fade in/out
+      $("h1").fadeOut();
+      $("h1").fadeIn(4000);
+
+      //hide/show
+      $("p").hide();
+      $("p").show(3000);
+
+      //slide
+      $("h2").slideUp(1000);
+      $("h2").slideDown(4000);
+
+     
+
+
+    </script>
+  </body>
+</html>
